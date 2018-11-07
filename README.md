@@ -1,4 +1,5 @@
 # CircleCI publishing To Nexus Repository Manager
+[![CI](https://circleci.com/gh/sonatype-nexus-community-circleci/circleci-nexus-demo.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/sonatype-nexus-community-circleci/circleci-nexus-demo)
 
 This is an example application showcasing how to deploy a Java app to Sonatype Nexus Repository Manager via CircleCI 2.1.
 
