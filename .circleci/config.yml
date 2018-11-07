@@ -1,5 +1,5 @@
 orbs:
-  nexus-orb: sonatype/nexus-platform-orb@dev:first
+  nexus-orb: sonatype/nexus-platform-orb@dev:second
 
 version: 2.1 # use CircleCI 2.1
 jobs:
