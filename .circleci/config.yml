@@ -38,16 +38,6 @@ jobs:
       
       - nexus-orb/install
 
-      - run: pwd
-
-      - run: ls -al $(pwd)
-      
-      - run: ls -al $(pwd)/target
-      
-      - run: echo ${CIRCLE_WORKING_DIRECTORY}
-
-      - run: ls -al ~/circleci-demo-java-spring/target/demo-java-spring-0.0.1-SNAPSHOT.jar
-     
       - nexus-orb/publish:
           workspace: "$(pwd)"
           filename: "target/demo-java-spring-0.0.1-SNAPSHOT.jar"
